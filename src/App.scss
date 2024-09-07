@@ -1,0 +1,21 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.buttonContainer {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    button {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}

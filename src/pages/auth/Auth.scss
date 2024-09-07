@@ -1,0 +1,26 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: max-content;
+
+  .authInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .authButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button{
+      cursor: pointer;
+    }
+  }
+}
